@@ -13,3 +13,6 @@ CNN 연산을 효율적으로 수행하기 위한 RISC-V 기반 하드웨어 가
 본 프로젝트에서는 ag_rDMA, ag_rAGU, ag_wAGU, ag_wDMA의 네 가지 Address Generation 모듈을 구현하였으며, CNN Layer와 Tile 크기에 따라 올바른 메모리 주소를 생성하여 데이터가 정확한 위치로 이동하도록 설계하였습니다. 또한 다양한 CNN 구조에서 동일한 Address Generation 로직이 동작할 수 있도록 구현하여 CNN Accelerator의 효율적인 데이터 전송 구조를 구성하였습니다.
 
 <img width="1009" height="593" alt="image" src="https://github.com/user-attachments/assets/1b056d1a-5c1d-4698-8f70-a948df0ca031" />
+
+# Main idea
+<img width="868" height="528" alt="image" src="https://github.com/user-attachments/assets/1f3ed7f5-1d4a-43ed-982a-eb747b6f3952" />
