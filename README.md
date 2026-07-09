@@ -15,4 +15,4 @@ CNN 연산을 효율적으로 수행하기 위한 RISC-V 기반 하드웨어 가
 <img width="1009" height="593" alt="image" src="https://github.com/user-attachments/assets/1b056d1a-5c1d-4698-8f70-a948df0ca031" />
 
 # Main idea
-<img width="868" height="528" alt="image" src="https://github.com/user-attachments/assets/1f3ed7f5-1d4a-43ed-982a-eb747b6f3952" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/1f3ed7f5-1d4a-43ed-982a-eb747b6f3952" />
