@@ -15,8 +15,8 @@ CNN 연산을 효율적으로 수행하기 위한 RISC-V 기반 하드웨어 가
 <img width="1009" height="593" alt="image" src="https://github.com/user-attachments/assets/1b056d1a-5c1d-4698-8f70-a948df0ca031" />
 
 # Main idea
-<img width="300" height="180" alt="image" src="https://github.com/user-attachments/assets/d1fa0dc5-13d6-48c0-a9dd-c00946d3885b" />
-<img width="300" height="180" alt="image" src="https://github.com/user-attachments/assets/1f3ed7f5-1d4a-43ed-982a-eb747b6f3952" />
+<img width="400" height="240" alt="image" src="https://github.com/user-attachments/assets/d1fa0dc5-13d6-48c0-a9dd-c00946d3885b" />
+<img width="400" height="240" alt="image" src="https://github.com/user-attachments/assets/1f3ed7f5-1d4a-43ed-982a-eb747b6f3952" />
 
 8가지의 layer에 대해 데이터를 Tile 단위로 분할하여 처리할 것입니다. 이때 Tile의 크기는 P,Q의 약수의 크기로 한정하고 Tile의 크기는 1로도 두지않습니다. 그렇게되면 총 168가지 경우에 대해서 데이터를 처리하게 되고, 실행시간은 layer마다 최대한 비중을 비슷하게 하여 계산하며 report에서는 T라고 표현하였습니다. 처음에는 C코드로 먼저 코드를 작성하고 이 코드를 Assembly로 변형한 후 이 Assembly를 최적화시키는 방향으로 T값을 줄여나갔습니다.
 
